@@ -11,6 +11,14 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.12" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+    <PackageReference Include="WolverineFx.EntityFrameworkCore" Version="6.49.0" />
+    <PackageReference Include="WolverineFx.Postgresql" Version="6.49.0" />
+    <PackageReference Include="WolverineFx.RabbitMQ" Version="6.49.0" />
+    <PackageReference Include="WolverineFx.RuntimeCompilation" Version="6.49.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contracts\Contracts.csproj" />
   </ItemGroup>
 
 </Project>
